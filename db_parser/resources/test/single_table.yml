@@ -1,0 +1,11 @@
+employee:
+  id: primary_key
+  name: string
+  age: number
+  position_id:
+    type: number
+    foreign_key: position.id
+
+position:
+  id: primary_key
+  name: string
